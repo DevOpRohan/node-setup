@@ -93,7 +93,7 @@ apt-get install -y curl >> $LOG_FILE 2>&1
 
 # --- NODE BINARY SETUP --- #
 
-NODE=https://github.com/kadena-io/chainweb-node/releases/download/2.1.1/chainweb-2.1.1.ghc-8.8.4.ubuntu-18.04.d99165c.tar.gz
+NODE=https://objects.githubusercontent.com/github-production-release-asset-2e65be/175973818/0713b2d5-fca3-43b4-b1cf-e942b260a61a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221130T132605Z&X-Amz-Expires=300&X-Amz-Signature=06ba80d7007555fbe88bb11e8cff4c91e41514d0003681ce1c33caf5282ec0f6&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=175973818&response-content-disposition=attachment%3B%20filename%3Dchainweb-2.17.ghc-8.10.7.ubuntu-20.04.323bce4.tar.gz&response-content-type=application%2Foctet-stream
 MINER=https://github.com/kadena-io/chainweb-miner/releases/download/v1.0.3/chainweb-miner-1.0.3-ubuntu-18.04.tar.gz
 
 decho 'Downloading Node...'
